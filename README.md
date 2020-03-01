@@ -3,6 +3,8 @@ Visualize topologies of F Prime applications
 
 JPL's [F Prime framework](https://github.com/nasa/fprime) uses XML files to define component interfaces (input and output ports) and to declare the components and connections that make up an application's Topology.  However, the framework does not provide a way to visualize these connections (JPL employees likely rely on the commercial product Magic Draw).  This makes it difficult to understand how existing applications are put together.  The **GraFPrime** tool parses these XML files and produces SVG graphs visualizing an application's Topology.
 
+![Screenshot](docs/Ref-screenshot.png)
+
 ## Getting started
 **GraFPrime** is written in Scala and can be built using [sbt](https://www.scala-sbt.org/).  Compilation requires a Java SE 8+ JDK and an sbt launcher.  To run the resulting executable, a Java SE 8+ JRE is all that is required.
 
